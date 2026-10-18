@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market index | Skopje Flats</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="32" height="32">Skopje Flats</a>
+<nav class="primary-nav" aria-label="Main"><a href="listings/page-1.html">Buy</a><a href="#">Rent</a><a href="#" class="extra">New homes</a><a href="#" class="extra">Agents</a><a href="market-index.html" aria-current="page">Market index</a></nav>
+<div class="account"><a class="saved" href="#">Saved</a><a class="button" href="#">Post a listing</a></div>
+</div>
+</header>
+<main>
+<div class="wrap">
+<ol class="breadcrumb"><li><a href="index.html">Home</a></li><li aria-current="page">Market index</li></ol>
+<div class="page-head"><h1>Market index</h1><p>The mean asking price per square metre, in EUR, of the apartments on sale.</p></div>
+<div class="index-layout">
+<section class="index-panel" aria-label="Price per square metre by municipality">
+<p class="index-meta"><span>Updated 12 October 2026</span><span>All 180 apartments on sale</span></p>
+<p class="loading" id="index-loading">Loading the latest figures</p>
+<table id="index"></table>
+</section>
+<aside class="side">
+<div class="panel note"><h2>How the index is calculated</h2><p>For each municipality, the index divides the asking price of every apartment on sale by its floor area and takes the mean.</p><p>Prices quoted in MKD are converted to EUR before the mean is taken.</p></div>
+<div class="panel highlight"><h2>Browse the apartments</h2><p>See every flat behind these figures.</p><a class="button" href="listings/page-1.html">Apartments for sale</a></div>
+</aside>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="columns">
+<div><a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="32" height="32">Skopje Flats</a><p>Apartments for sale across the city of Skopje, from private sellers and local agencies.</p></div>
+<div><h2>Search</h2><ul><li><a href="listings/page-1.html">Apartments for sale</a></li><li><a href="#">Apartments to rent</a></li><li><a href="#">New homes</a></li><li><a href="market-index.html">Market index</a></li></ul></div>
+<div><h2>Sellers</h2><ul><li><a href="#">Post a listing</a></li><li><a href="#">Advertise as an agency</a></li><li><a href="#">Valuation guide</a></li></ul></div>
+<div><h2>Skopje Flats</h2><ul><li><a href="#">About us</a></li><li><a href="#">Help and contact</a></li><li><a href="#">Terms of use</a></li><li><a href="#">Privacy</a></li></ul></div>
+</div>
+<p class="legal">© 2026 Skopje Flats. Every listing, seller, and agency on this site is synthetic.</p>
+</div>
+</footer>
+<script>
+const INDEX = [{"municipality": "Центар", "listings": 26, "eur_per_m2": 1977}, {"municipality": "Карпош", "listings": 37, "eur_per_m2": 1916}, {"municipality": "Аеродром", "listings": 36, "eur_per_m2": 1530}, {"municipality": "Кисела Вода", "listings": 15, "eur_per_m2": 1330}, {"municipality": "Гази Баба", "listings": 22, "eur_per_m2": 1218}, {"municipality": "Ѓорче Петров", "listings": 14, "eur_per_m2": 1064}, {"municipality": "Чаир", "listings": 13, "eur_per_m2": 1092}, {"municipality": "Бутел", "listings": 17, "eur_per_m2": 1042}];
+window.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    const rows = INDEX.map(r =>
+      `<tr><td class="municipality">${r.municipality}</td><td class="listings">${r.listings}</td><td class="eur-per-m2">${r.eur_per_m2}</td></tr>`);
+    document.querySelector("#index").innerHTML =
+      "<tr><th>Municipality</th><th>Listings</th><th>Mean EUR per m²</th></tr>" + rows.join("");
+    document.querySelector("#index-loading").hidden = true;
+  }, 500);
+});
+</script>
+</body>
+</html>

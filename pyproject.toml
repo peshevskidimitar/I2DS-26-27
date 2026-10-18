@@ -1,0 +1,21 @@
+[project]
+name = "i2ds"
+version = "2026.1"
+description = "The environment of the exercises of Introduction to Data Science."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "beautifulsoup4",
+    "ipykernel",
+    "jupyter",
+    "lxml",
+    "matplotlib",
+    "pandas",
+    "playwright",
+    "requests",
+    "scipy",
+    "seaborn",
+    "statsmodels",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,9 @@
+# The environment that uv creates.
+.venv/
+
+# Files that Jupyter and Python write while the notebooks run.
+.ipynb_checkpoints/
+__pycache__/
+
+# Operating system files.
+.DS_Store

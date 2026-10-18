@@ -1,0 +1,6 @@
+file: anscombe.csv
+origin: >
+  F. J. Anscombe, "Graphs in Statistical Analysis",
+  The American Statistician 27(1), 1973, pp. 17-21. The values are typed from Table 1.
+license: The values are facts from a published table and are in the public domain.
+retrieved: 2026-10-11

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fc7d8"/><stop offset="1" stop-color="#e3eef2"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#sky)"/>
+<path d="M0 162 C90 155 180 150 260 180 S360 145 400 145 V300 H0 Z" fill="#9db3a3" opacity="0.7"/>
+<rect x="73" y="160" width="250" height="102" fill="#cfd0c9"/>
+<rect x="67" y="152" width="262" height="8" fill="#b2b4ac"/>
+<rect x="73" y="192" width="250" height="2" fill="#b2b4ac" opacity="0.6"/>
+<rect x="81.9" y="167.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="117.6" y="167.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="153.4" y="167.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="189.1" y="167.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="224.8" y="167.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="260.5" y="167.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="296.2" y="167.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="73" y="226" width="250" height="2" fill="#b2b4ac" opacity="0.6"/>
+<rect x="81.9" y="201.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="117.6" y="201.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="153.4" y="201.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="189.1" y="201.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="224.8" y="201.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="260.5" y="201.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="296.2" y="201.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="73" y="260" width="250" height="2" fill="#b2b4ac" opacity="0.6"/>
+<rect x="81.9" y="235.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="117.6" y="235.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="153.4" y="235.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="189.1" y="235.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="224.8" y="235.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="260.5" y="235.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="296.2" y="235.5" width="17.9" height="17.0" fill="#56656e"/>
+<rect x="156.7" y="232" width="28" height="30" fill="#2b3439"/>
+<rect x="0" y="262" width="400" height="38" fill="#8f9a9c"/>
+<rect x="0" y="262" width="400" height="5" fill="#a9b2b3"/>
+<rect x="114" y="235" width="4" height="27" fill="#6b5641"/>
+<circle cx="116" cy="213" r="27" fill="#6f9a6e"/>
+</svg>
