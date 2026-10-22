@@ -1,0 +1,10 @@
+file: student-por.csv
+origin: >
+  Cortez, P. (2008). Student Performance [Dataset]. UCI Machine Learning Repository.
+  https://doi.org/10.24432/C5TG7T. The file is student-por.csv from the archive, unchanged,
+  and holds the students of the Portuguese language course at two secondary schools.
+  The variables are described in P. Cortez and A. Silva, "Using Data Mining to Predict
+  Secondary School Student Performance", Proceedings of the 5th Future Business Technology
+  Conference, 2008, pp. 5-12.
+license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+retrieved: 2026-10-12

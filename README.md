@@ -72,6 +72,7 @@ its deck, and the data both of them use.
 | Exercise | Notebook | Deck |
 | --- | --- | --- |
 | 1. Data Gathering and Exploratory Analysis | [notebook.ipynb](auditory/01-data-gathering-and-exploratory-analysis/notebook.ipynb) | [slides.pdf](auditory/01-data-gathering-and-exploratory-analysis/slides.pdf) |
+| 2. Statistical Inference | [notebook.ipynb](auditory/02-statistical-inference/notebook.ipynb) | [slides.pdf](auditory/02-statistical-inference/slides.pdf) |
 
 ## Updating
 

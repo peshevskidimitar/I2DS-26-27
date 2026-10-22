@@ -1,0 +1,9 @@
+cross,phenotype,count,ratio
+seed shape,round,5474,3
+seed shape,wrinkled,1850,1
+seed colour,yellow,6022,3
+seed colour,green,2001,1
+shape and colour,round yellow,315,9
+shape and colour,wrinkled yellow,101,3
+shape and colour,round green,108,3
+shape and colour,wrinkled green,32,1
