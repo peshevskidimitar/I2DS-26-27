@@ -1,0 +1,8 @@
+file: bike-hours.csv
+origin: >
+  Fanaee-T, H. (2013). Bike Sharing [Dataset]. UCI Machine Learning Repository.
+  https://doi.org/10.24432/C5W894. The file keeps the columns dteday, hr, and cnt of
+  hour.csv from the archive, renamed to date, hour, and rentals, and holds the hourly
+  rentals of the Capital Bikeshare system in Washington, D.C., in 2011 and 2012.
+license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+retrieved: 2026-10-12

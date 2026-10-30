@@ -1,0 +1,9 @@
+file: automobile.csv
+origin: >
+  Schlimmer, J. (1985). Automobile [Dataset]. UCI Machine Learning Repository.
+  https://doi.org/10.24432/C5B01C. The file is imports-85.data from the archive with the
+  attribute names of imports-85.names added as a header row. It keeps the question mark
+  that marks a missing value, and holds 205 cars imported into the United States in 1985
+  with their specifications, insurance ratings, and list prices.
+license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+retrieved: 2026-10-23
