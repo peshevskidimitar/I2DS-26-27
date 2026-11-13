@@ -1,0 +1,9 @@
+file: breast-cancer.csv
+origin: >
+  Wolberg, W., Mangasarian, O., Street, N., and Street, W. (1993). Breast Cancer Wisconsin
+  (Diagnostic) [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5DW2B.
+  The file is the copy that scikit-learn ships as load_breast_cancer, written with the
+  feature names of scikit-learn and a diagnosis column that holds malignant or benign.
+  It holds 569 tumours described by 30 measurements of their cell nuclei.
+license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+retrieved: 2026-10-27

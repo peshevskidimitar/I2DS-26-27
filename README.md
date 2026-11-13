@@ -74,6 +74,8 @@ its deck, and the data both of them use.
 | 1. Data Gathering and Exploratory Analysis | [notebook.ipynb](auditory/01-data-gathering-and-exploratory-analysis/notebook.ipynb) | [slides.pdf](auditory/01-data-gathering-and-exploratory-analysis/slides.pdf) |
 | 2. Statistical Inference | [notebook.ipynb](auditory/02-statistical-inference/notebook.ipynb) | [slides.pdf](auditory/02-statistical-inference/slides.pdf) |
 | 3. Data Preparation | [notebook.ipynb](auditory/03-data-preparation/notebook.ipynb) | [slides.pdf](auditory/03-data-preparation/slides.pdf) |
+| 4. Regression, Regularization and Baselines | [notebook.ipynb](auditory/04-regression-regularization-and-baselines/notebook.ipynb) | [slides.pdf](auditory/04-regression-regularization-and-baselines/slides.pdf) |
+| 5. Classification, Evaluation and Pipelines | [notebook.ipynb](auditory/05-classification-evaluation-and-pipelines/notebook.ipynb) | [slides.pdf](auditory/05-classification-evaluation-and-pipelines/slides.pdf) |
 
 ## Updating
 

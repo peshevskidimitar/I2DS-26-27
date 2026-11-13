@@ -1,0 +1,12 @@
+file: housing.csv
+origin: >
+  R. K. Pace and R. Barry, "Sparse Spatial Autoregressions", Statistics and Probability
+  Letters 33, 1997, pp. 291-297, built from the 1990 California census, one row per census
+  block group. The file is datasets/housing/housing.csv of A. Geron, Hands-On Machine
+  Learning (https://github.com/ageron/handson-ml2), unchanged. That version removes 207
+  values of total_bedrooms at random and adds the categorical column ocean_proximity.
+license: >
+  The census figures are a work of the United States government and are in the public
+  domain. The repository that distributes this version is licensed under the Apache
+  License 2.0.
+retrieved: 2026-10-27

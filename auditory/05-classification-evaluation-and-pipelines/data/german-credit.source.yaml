@@ -1,0 +1,10 @@
+file: german-credit.csv
+origin: >
+  Hofmann, H. (1994). Statlog (German Credit Data) [Dataset]. UCI Machine Learning
+  Repository. https://doi.org/10.24432/C5NC77. The file is german.data from the archive
+  with a header row, and every attribute code, such as A11, replaced by the meaning that
+  the documentation of the archive gives it. risk is good or bad. The documentation states
+  that classifying a bad customer as good costs 5, and classifying a good customer as bad
+  costs 1.
+license: Creative Commons Attribution 4.0 International (CC BY 4.0).
+retrieved: 2026-10-27

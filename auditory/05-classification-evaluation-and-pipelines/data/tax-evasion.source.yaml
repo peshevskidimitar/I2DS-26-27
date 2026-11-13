@@ -1,0 +1,7 @@
+file: tax-evasion.csv
+origin: >
+  The ten records of the tax-evasion example in P.-N. Tan, M. Steinbach, A. Karpatne, and
+  V. Kumar, Introduction to Data Mining, 2nd edition, Pearson, 2019, typed from the table
+  that lecture DS-B05 reproduces. income is in thousands.
+license: The values are facts of a published teaching example and carry no copyright.
+retrieved: 2026-10-27

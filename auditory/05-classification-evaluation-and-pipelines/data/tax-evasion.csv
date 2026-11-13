@@ -1,0 +1,11 @@
+tid,refund,status,income,evade
+1,yes,single,125,no
+2,no,married,100,no
+3,no,single,70,no
+4,yes,married,120,no
+5,no,divorced,95,yes
+6,no,married,60,no
+7,yes,divorced,220,no
+8,no,single,85,yes
+9,no,married,75,no
+10,no,single,90,yes
